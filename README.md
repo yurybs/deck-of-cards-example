@@ -85,6 +85,7 @@ Shuffle the game deck (shoe)
 curl -X PATCH /demo/games/{gameid}/deck/shuffle
 ```
 
-
+## Tests
+It was not mentioned in the specs but I included two classes of automated tests. They currently are very very basic, but already up and running. To keep evolving in this project they would be essential.
 
 
