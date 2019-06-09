@@ -8,11 +8,9 @@ The game API is a very basic game in which one or more decks are added to create
 This project was developed using Spring Boot and IntelliJ IDEA. All the 'base' code was brought by these two automatically. All the custom code was developed by my self.
 
 
-## Usage
+## Usage, operations and more details
 
 root-endpoint: http://localhost:8080
-
-Operations and how to use it:
 
 Create a game - the ID of the games will be sequential and starting from 0.
 ```js
