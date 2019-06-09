@@ -30,13 +30,9 @@ curl -X GET /demo/deck
 ```
 
 Add a deck to a game deck
+Please note that once a deck has been added to a game deck it cannot be removed. (There is no way to remove a deck from the game)
 ```js
 curl -X POST /demo/games/{gameid}/deck
-```
-
-Please note that once a deck has been added to a game deck it cannot be removed.
-```js
-There is no way to remove a deck from the game
 ```
 
 Add players to a game
